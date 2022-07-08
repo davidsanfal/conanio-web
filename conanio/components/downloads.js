@@ -5,7 +5,7 @@ function ConanDownloadsHero() {
   return (
     <section className="downloads-hero position-relative" id="downloadsHero"><img alt="Conan C++ Package Manager"
         className="position-absolute hero-bg downloads-hero-bg d-none d-xl-inline d-only-hero-bg"
-        src="img/downloads-hero-bg-new.svg"></img>
+        src="downloads-hero-bg-new.svg"></img>
       <div className="container">
         <div className="row">
           <div className="col-12 py-5">
@@ -29,7 +29,7 @@ function ConanDownloads() {
               <div className="content px-2 px-md-4 py-2 p-md-4">
                 <div className="small-title d-flex align-items-center"><img
                     alt="Downlod Conan Open Source C/C++ Package Manager" className="mr-2 small-title-lazy"
-                    src="img/conan-downloads-logo.svg" style={{ width: '280px' }}></img></div>
+                    src="conan-downloads-logo.svg" style={{ width: '280px' }}></img></div>
                 <div className="text pb-1">
                   <p className="py-3 front-text">Install the latest version of the free and open Source Conan C and C++
                     package manager, to start using Conan and downloading packages from the ConanCenter.</p>
@@ -39,7 +39,7 @@ function ConanDownloads() {
                   <div className="installers pb-4">
                     <div className="package-wrapper d-flex flex-no-wrap mb-0">
                       <div className="cn-box small"><img alt="python" className="lazy"
-                          data-src="img/downloads/python-small-pack.svg"></img></div>
+                          data-src="downloads/python-small-pack.svg"></img></div>
                       <div className="cn-box cn-main copy-text">$ pip install conan</div> <a className="cn-box cn-action cn-copy"
                         data-copy-value="pip install conan" data-os="pypi_homepage" data-placement="top"
                         data-toggle="tooltip"></a>
@@ -49,21 +49,21 @@ function ConanDownloads() {
                   <div className="installers small-installers pb-4">
                     <div className="package-wrapper d-flex flex-no-wrap">
                       <div className="cn-box small"><img alt="Darwin" className="lazy"
-                          data-src="img/downloads/darwin-small-pack.svg"></img></div>
+                          data-src="downloads/darwin-small-pack.svg"></img></div>
                       <div className="cn-box cn-main copy-text">$ brew install conan</div> <a className="cn-box cn-action cn-copy"
                         data-copy-value="brew install conan" data-os="brew_homepage" data-placement="top"
                         data-toggle="tooltip"></a>
                     </div>
                     <div className="package-wrapper d-flex flex-no-wrap">
                       <div className="cn-box small"><img alt="Debian" className="lazy"
-                          data-src="img/downloads/debian-small-pack.svg"></img></div>
+                          data-src="downloads/debian-small-pack.svg"></img></div>
                       <div className="cn-box cn-main">Ubuntu / Debian X64 Installer</div> <a
                         className="cn-box cn-action cn-download" data-os="ubuntu"
                         href="https://github.com/conan-io/conan/releases/latest/download/conan-ubuntu-64.deb"></a>
                     </div>
                     <div className="package-wrapper normal-dropdown d-flex flex-no-wrap">
                       <div className="cn-box small"><img alt="Windows" className="lazy"
-                          data-src="img/downloads/windows-small-pack.png" style={{ width: '30px' }}></img></div>
+                          data-src="downloads/windows-small-pack.png" style={{ width: '30px' }}></img></div>
                       <div className="cn-box cn-main cn-dropdown">
                         <div className="dropdown"> <button aria-expanded="false" aria-haspopup="true"
                             className="btn dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButton" type="button">
@@ -79,14 +79,14 @@ function ConanDownloads() {
                     </div>
                     <div className="package-wrapper d-flex flex-no-wrap">
                       <div className="cn-box small"><img alt="Arc Linux" className="lazy"
-                          data-src="img/downloads/archlinux-small-pack.svg"></img></div>
+                          data-src="downloads/archlinux-small-pack.svg"></img></div>
                       <div className="cn-box cn-main copy-text">$ yay -S conan</div> <a className="cn-box cn-action cn-copy"
                         data-copy-value="yay -S conan" data-os="arch_aur_homepage" data-placement="top"
                         data-toggle="tooltip"></a>
                     </div>
                     <div className="package-wrapper d-flex flex-no-wrap">
                       <div className="cn-box small"><img alt="Github" className="lazy"
-                          data-src="img/downloads/github-small-pack.svg"></img></div>
+                          data-src="downloads/github-small-pack.svg"></img></div>
                       <div className="cn-box cn-main">Any OS:From Source</div> <a className="cn-box cn-action cn-link"
                         data-os="github" href="https://github.com/conan-io/conan" rel="nofollow" target="_blank"></a>
                     </div>
@@ -109,7 +109,7 @@ function ConanDownloads() {
               <div className="content px-2 px-md-4 py-2 p-md-4">
                 <div className="small-title d-flex align-items-center"><img
                     alt="Downlod JFrog Artifactory Community Edition for C/C++" className="mr-2 lazy"
-                    src="img/arti-downloads-logo.svg" style={{ width: '200px' }}></img></div>
+                    src="arti-downloads-logo.svg" style={{ width: '200px' }}></img></div>
                 <div className="text pb-1">
                   <p className="py-3 front-text">Download the latest version of JFrog Artifactory Community Edition to host
                     your own private packages on your own server - for free.</p>
@@ -159,7 +159,7 @@ function ConanDownloads() {
                   <div className="installers small-installers pb-4">
                     <div className="package-wrapper d-flex flex-no-wrap">
                       <div className="cn-box small"><img alt="Linux" className="lazy"
-                          data-src="img/downloads/linux-small-pack.svg"></img></div>
+                          data-src="downloads/linux-small-pack.svg"></img></div>
                       <div className="cn-box cn-main">Linux Installer</div> <a className="cn-box cn-action cn-download"
                         data-tech="linux"
                         href="https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/cpp/ce/jfrog-artifactory-cpp-ce/[RELEASE]/jfrog-artifactory-cpp-ce-[RELEASE]-linux.tar.gz"></a>
@@ -167,7 +167,7 @@ function ConanDownloads() {
                     <div className="package-wrapper package-copy-plus-download d-flex flex-no-wrap position-relative">
                       <textarea className="position-absolute" cols="1" id="artiRpm"
                         rows="1">#Add artifactory.repo file to your yum repository listsudo vi /etc/yum.repos.d/artifactory.repo#Add the following content[Artifactory]name=Artifactorybaseurl=https://releases.jfrog.io/artifactory/artifactory-rpms/enabled=1gpgcheck=0#Optional - if you have GPG signing keys installed, use the below flags to verify the repository metadata signature:#gpgkey=https://releases.jfrog.io/artifactory/artifactory-rpms/{'{PATH_TO_REPODATA_FOLDER}'}/repomd.xml.key#repo_gpgcheck=1#Run the install commandyum update && yum install jfrog-artifactory-cpp-ce </textarea>
-                      <div className="cn-box small"><img alt="rpm" className="lazy" data-src="img/downloads/rpm-small-pack.png"></img>
+                      <div className="cn-box small"><img alt="rpm" className="lazy" data-src="downloads/rpm-small-pack.png"></img>
                       </div>
                       <div className="cn-box cn-main cn-dropdown">
                         <div className="dropdown"> <button aria-expanded="false" aria-haspopup="true"
@@ -186,7 +186,7 @@ function ConanDownloads() {
                       <textarea className="position-absolute" cols="1" id="artiDebian"
                         rows="1">wget -qO - https://releases.jfrog.io/artifactory/api/gpg/key/public | apt-key add -;echo "deb https://releases.jfrog.io/artifactory/artifactory-debs{'{'}distribution{'}'} main" | sudo tee -a /etc/apt/sources.list;# To determine your distribution, run lsb_release -c or cat /etc/os-release# Example:echo "deb https://releases.jfrog.io/artifactory/artifactory-debs xenial main" | sudo tee -a /etc/apt/sources.list;apt-get update;sudo apt-get install jfrog-artifactory-cpp-ce </textarea>
                       <div className="cn-box small"><img alt="debian" className="lazy"
-                          data-src="img/downloads/debian-small-pack.svg"></img></div>
+                          data-src="downloads/debian-small-pack.svg"></img></div>
                       <div className="cn-box cn-main cn-dropdown">
                         <div className="dropdown"> <button aria-expanded="false" aria-haspopup="true"
                             className="btn dropdown-toggle" data-toggle="dropdown" id="dropdownMenuButtonDebian"
@@ -202,21 +202,21 @@ function ConanDownloads() {
                     </div>
                     <div className="package-wrapper d-flex flex-no-wrap">
                       <div className="cn-box small"><img alt="Windows" className="lazy"
-                          data-src="img/downloads/windows-small-pack.png" style={{ width: '30px' }}></img></div>
+                          data-src="downloads/windows-small-pack.png" style={{ width: '30px' }}></img></div>
                       <div className="cn-box cn-main">Windows Installer</div> <a className="cn-box cn-action cn-download"
                         data-tech="windows"
                         href="https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/cpp/ce/jfrog-artifactory-cpp-ce/[RELEASE]/jfrog-artifactory-cpp-ce-[RELEASE]-windows.zip"></a>
                     </div>
                     <div className="package-wrapper d-flex flex-no-wrap">
                       <div className="cn-box small"><img alt="Windows" className="lazy"
-                          data-src="img/downloads/compose-small-pack.svg"></img></div>
+                          data-src="downloads/compose-small-pack.svg"></img></div>
                       <div className="cn-box cn-main">Docker Compose Installer</div> <a className="cn-box cn-action cn-download"
                         data-tech="docker_compose"
                         href="https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/cpp/ce/docker/jfrog-artifactory-cpp-ce/[RELEASE]/jfrog-artifactory-cpp-ce-[RELEASE]-compose.tar.gz"></a>
                     </div>
                     <div className="package-wrapper d-flex flex-no-wrap has-multiline-text">
                       <div className="cn-box small"><img alt="Arc Linux" className="lazy"
-                          data-src="img/downloads/docker-small-pack.png"></img></div> <a
+                          data-src="downloads/docker-small-pack.png"></img></div> <a
                         className="cn-box cn-main copy-text show-full-command" data-toggle="tooltip"
                         title="docker run --name artifactory -d -p 8081:8081 -p 8082:8082 docker.bintray.io/jfrog/artifactory-cpp-ce:latest"><span
                           className="in-copy-text">$ docker run ... </span></a><a className="cn-box cn-action cn-copy-multiline"
@@ -226,7 +226,7 @@ function ConanDownloads() {
                     </div>
                     <div className="package-wrapper d-flex flex-no-wrap">
                       <div className="cn-box small"><img alt="Darwin" className="lazy"
-                          data-src="img/downloads/darwin-small-pack.svg"></img></div>
+                          data-src="downloads/darwin-small-pack.svg"></img></div>
                       <div className="cn-box cn-main">Darwin Installer</div> <a className="cn-box cn-action cn-download"
                         data-tech="darwin"
                         href="https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/cpp/ce/jfrog-artifactory-cpp-ce/[RELEASE]/jfrog-artifactory-cpp-ce-[RELEASE]-darwin.tar.gz"></a>
@@ -245,13 +245,13 @@ function ConanDownloads() {
             <h2 className="font-weight-bold pb-3">Questions about Installation?</h2>
             <p>Check the Docs, contact the community on Slack, or ask for support in Github</p>
             <div className="d-flex justify-content-center mt-4"><a className="q-box d-block" href="https://docs.conan.io/">
-                <div className="q-top"><img alt="Docs" src="img/docs.svg"></img></div>
+                <div className="q-top"><img alt="Docs" src="docs.svg"></img></div>
                 <div className="q-title text-center mt-1">Docs</div>
               </a><a className="q-box d-block" href="https://cpplang.slack.com/?id=conan">
-                <div className="q-top"><img alt="Docs" src="img/social/slack.svg"></img></div>
+                <div className="q-top"><img alt="Docs" src="social/slack.svg"></img></div>
                 <div className="q-title text-center mt-1">Slack</div>
               </a><a className="q-box d-block" href="https://github.com/conan-io/conan/issues" rel="nofollow">
-                <div className="q-top"><img alt="Docs" src="img/social/github.svg"></img></div>
+                <div className="q-top"><img alt="Docs" src="social/github.svg"></img></div>
                 <div className="q-title text-center mt-1">Github</div>
               </a></div>
           </div>
