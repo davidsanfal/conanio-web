@@ -21,7 +21,7 @@ function ConanFooter() {
               <div className="row">
                 <div className="col-sm-3">
                   <h4 className="blue mb-1">GET</h4>
-                    <div><a href="/downloads.html" id="download_btn_bottom">Download </a></div>
+                    <div><a href="/downloads" id="download_btn_bottom">Download </a></div>
                     <div><a href="https://conan.io/center/">Conan-Center </a></div>
                     <div><a href="https://github.com/conan-io/conan" rel="nofollow">GitHub </a></div>
                 </div>
@@ -32,8 +32,8 @@ function ConanFooter() {
                 </div>
                 <div className="col-sm-3">
                   <h4 className="blue mb-1">Legal</h4>
-                    <div><a href="/privacy-policy.html">Privacy Policy </a></div>
-                    <div><a href="/terms-conditions.html">Terms </a></div>
+                    <div><a href="/privacy-policy">Privacy Policy </a></div>
+                    <div><a href="/terms-conditions">Terms </a></div>
                     <div><a href="#" className="ot-sdk-show-settings"></a></div>
                 </div>
                 <div className="col-sm-3">
