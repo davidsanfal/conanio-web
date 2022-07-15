@@ -1,3 +1,5 @@
+import next from 'next'
+
 export function get_urls({packageId='', search='all', filters=[], licenses=[]} = {}) {
   return {
     api: {

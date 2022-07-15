@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 import Center from '@/pages/center'
 
 
-describe('ConanFooter Elements', () => {
+describe('ConanCenter Elements', () => {
   const get_server_side_props_data = {
     popular: [
       {"name": "openSSL", "version": "v3.0.3"},
