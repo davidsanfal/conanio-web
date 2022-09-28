@@ -63,7 +63,7 @@ export default function ConanPackage(props) {
           <Row>
             <Col xs lg="4">
                <Form.Select size="sm" value={selectedVersion} onChange={handleChange}>
-                  {props.versions.map((version) => (<option value={version}>Version: {version}</option>))}
+                  {props.versions.map((version) => (<option key={version} value={version}>Version: {version}</option>))}
                 </Form.Select>
             </Col>
             <Col xs lg="5"><p><b>Licenses:</b> {props.data[selectedVersion].info.licenses.join(", ")}</p></Col>
