@@ -4,10 +4,6 @@ WORKDIR /app
 COPY . .
 RUN yarn install
 RUN yarn test:ci
-RUN yarn dev
-
 EXPOSE 3000
-
 ENV PORT 3000
-
-CMD ["node", "server.js"]
+CMD ["yarn", "dev"]
