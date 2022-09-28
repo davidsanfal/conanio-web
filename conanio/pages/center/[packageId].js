@@ -20,7 +20,6 @@ export async function getServerSideProps(context) {
   let data = await get_json(urls.package.info, urls.api.private)
   return {
     props: {
-      versions: Object.keys(data),
       data: data,
       downloads: await get_json(urls.package.downloads, urls.api.private),
       tabs: {
@@ -37,7 +36,8 @@ export async function getServerSideProps(context) {
 
 
 export default function ConanPackage(props) {
-  const [selectedVersion, setSelectedVersion] = useState(props.versions[0]);
+  const [selectedVersion, setSelectedVersion] = useState(Object.keys(props.data)[0]);
+  console.log(props)
   const handleChange = (e) => {
     setSelectedVersion(e.target.value)
   }
@@ -63,7 +63,7 @@ export default function ConanPackage(props) {
           <Row>
             <Col xs lg="4">
                <Form.Select size="sm" value={selectedVersion} onChange={handleChange}>
-                  {props.versions.map((version) => (<option key={version} value={version}>Version: {version}</option>))}
+                  {Object.keys(props.data).map((version) => (<option key={version} value={version}>Version: {version}</option>))}
                 </Form.Select>
             </Col>
             <Col xs lg="5"><p><b>Licenses:</b> {props.data[selectedVersion].info.licenses.join(", ")}</p></Col>
