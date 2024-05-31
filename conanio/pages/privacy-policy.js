@@ -1,16 +1,15 @@
 import React from 'react';
 import { SSRProvider } from 'react-bootstrap';
 import ConanHeader from '../components/header';
+import ConanPrivacyPolicyComponent from '../components/privacypolicy';
 import ConanFooter from '../components/footer';
 
-export default function FaqPage() {
+export default function ConanPrivacyPolicy() {
     return (
     <React.StrictMode>
       <SSRProvider>
         <ConanHeader/>
-        <br/>
-        <h1 className="text-center">Work in progress ...</h1>
-        <br/>
+        <ConanPrivacyPolicyComponent/>
         <ConanFooter/>
       </SSRProvider>
     </React.StrictMode>

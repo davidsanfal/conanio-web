@@ -1,3 +1,6 @@
+import {ConanSignUp} from './signup';
+
+
 function ConanHomeHero() {
   return (
     <section id="hero" className="blue-gradient-bg position-relative">
@@ -394,7 +397,7 @@ export default function ConanHome() {
       <ConanHomeDiagram/>
       <ConanHomeAdvantages/>
       <ConanHomeLearnMore/>
-      <ConanHomeSignUp/>
+      <ConanSignUp/>
       <ConanHomeUserStoriesHomeSection/>
       <ConanHomeUsersHomeSection/>
       <ConanHomeMeetTheTribe/>
